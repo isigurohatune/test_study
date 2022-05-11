@@ -1,6 +1,5 @@
 #include "pch.h"
 #include "CppUnitTest.h"
-#include "../include/StaticLib.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -12,7 +11,6 @@ namespace UnitTest
 		
 		TEST_METHOD(TestMethod1)
 		{
-			Assert::AreEqual(false, is_leap_year(1));
 		}
 		TEST_METHOD(TestMethod2)
 		{

@@ -7,8 +7,6 @@
 int main()
 {
     int year = 2022;
-    //int year = 2100;
-    //int year = 2000;
 
     if (is_leap_year(year))
     {
@@ -18,7 +16,6 @@ int main()
         std::cout << year << "年は、平年です\n";
     }
 }
-
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
 // プログラムのデバッグ: F5 または [デバッグ] > [デバッグの開始] メニュー
